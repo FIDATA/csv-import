@@ -58,3 +58,10 @@ under the **Plugin - CsvImport** project.
 
 However, please note that this plugin is not actively supported by its original authors.
  
+## Creating Composer package
+
+```
+mkdir build
+composer archive --format=zip --dir=build --file=Csv_import-2.0.0
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/Csv_import-2.0.0.zip;composer.version=2.0.0" -T build/Csv_import-2.0.0.zip
+```

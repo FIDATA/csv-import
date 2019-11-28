@@ -1,0 +1,38 @@
+{
+    "name": "fidata/csv-import",
+    "description": "This MantisBT plugin allows you to import bugs with a CSV file",
+    "type": "mantisbt-plugin",
+    "authors": [
+        {
+            "name": "ave"
+        },
+        {
+            "name": "Stéphane Veyret"
+        },
+        {
+            "name": "Udo Sommer"
+        },
+        {
+            "name": "Cas Nuy"
+        },
+        {
+            "name": "lionheart33806",
+            "email": "lionheart33806@hotmail.com"
+        },
+        {
+            "name": "Victor Boctor",
+            "email": "victor@mantishub.com"
+        },
+        {
+            "name": "Damien Regad",
+            "email": "dregad@mantisbt.org"
+        }
+    ],
+    "archive": {
+        "exclude": [
+            ".gitignore",
+            "/doc",
+            "README.md"
+        ]
+    }
+}
